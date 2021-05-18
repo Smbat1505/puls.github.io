@@ -1,0 +1,19 @@
+.consult{
+    min-height: 680px;
+    background: url(../../img/bg2_363.png) center (center/cover )no-repeat;
+    padding: 100px 0 110px 0;
+    &__header{
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subheader{
+        margin-top: 80px;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+    }
+}

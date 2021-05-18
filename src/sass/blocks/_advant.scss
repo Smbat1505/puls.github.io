@@ -1,0 +1,43 @@
+.advant{
+    min-height: 470px;
+    padding: 70px 0 78px 0;
+    &__header{
+        margin: 0 auto;
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 65px;
+    }
+    &__items {
+        .img{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .title{
+        width: 239px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        .title-subheader{
+            display: block;
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 38px;
+        }
+        .color-red{
+            text-decoration: underline;
+            color: #ff0000;            
+        }
+    }
+}
